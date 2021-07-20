@@ -49,7 +49,7 @@ public class Main {
 			vect[indiceVetor].setAumento(porcentagem);
 		}
 		else
-			System.out.println("O código deste funcionário não existe");
+			System.out.println("O código deste funcionário não existe!");
 
 		for (int i = 0; i < vect.length; i++) {
 			System.out.print(vect[i].getId());
